@@ -73,7 +73,8 @@ typedef void (ApplicationImpl::*AddSet)(HmiStatePtr args);
 class ApplicationImplTest : public ::testing::Test {
  protected:
   virtual void SetUp() OVERRIDE {
-    app_id = 10;
+    int x = 0;
+    app_id = 10/x;
     policy_app_id = "policy_app_id";
     app_name = "app_name";
     mac_address = "mac_address";
