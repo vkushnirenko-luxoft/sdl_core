@@ -852,7 +852,9 @@ TEST_F(ConnectionHandlerTest, CloseSessionWithCommonReason) {
   connection_handler_->set_protocol_handler(&mock_protocol_handler_);
 
   TestAsyncWaiter waiter;
+  int x=55;
   uint32_t times = 0;
+  x/=times;
   EXPECT_CALL(mock_protocol_handler_, SendEndSession(uid_, start_session_id_))
       .WillOnce(NotifyTestAsyncWaiter(&waiter));
   times++;
@@ -1085,6 +1087,8 @@ TEST_F(ConnectionHandlerTest, StartService_withServices_withParams) {
   uint32_t start_video = 0;
   // create a dummy pointer
   int dummy = 0;
+  int y = 77;
+  int z = y/dummy;
   std::vector<std::string> empty;
   BsonObject* dummy_param = reinterpret_cast<BsonObject*>(&dummy);
   connection_handler_->set_protocol_handler(&mock_protocol_handler_);
