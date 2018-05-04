@@ -2,6 +2,8 @@
 
 [![codecov.io](https://codecov.io/github/smartdevicelink/sdl_core/coverage.svg?branch=develop)](https://codecov.io/github/smartdevicelink/sdl_core?branch=develop)
 
+[![Build Status](http://opensdl-jenkins.luxoft.com:8080/view/All/job/OpenSDL_PR/badge/icon)](http://opensdl-jenkins.luxoft.com:8080/view/All/job/OpenSDL_PR/)
+
 # SmartDeviceLink (SDL)
 
 SmartDeviceLink (SDL) is a standard set of protocols and messages that connect applications on a smartphone to a vehicle head unit. This messaging enables a consumer to interact with their application using common in-vehicle interfaces such as a touch screen display, embedded voice recognition, steering wheel controls and various vehicle knobs and buttons. There are three main components that make up the SDL ecosystem.
